@@ -182,9 +182,9 @@ function displayToc(filter) {
 // this function creates a three-column table and adds it to the screen
    var numDisplayed = 0;
    var tocTable = '';
-   var tocHead1 = 'POST TITLE';
-   var tocTool1 = 'Click to sort by title';
-   var tocHead2 = 'POST DATE';
+   var tocHead1 = 'Название';
+   var tocTool1 = 'Сортировка по названию';
+   var tocHead2 = 'Дата';
    var tocTool2 = 'Click to sort by date';
    var tocHead3 = 'LABELS';
    var tocTool3 = '';
