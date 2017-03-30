@@ -186,8 +186,8 @@ function displayToc(filter) {
    var tocTool1 = 'Click to sort by title';
    var tocHead2 = 'Дата';
    var tocTool2 = 'Click to sort by date';
-   var tocHead3 = 'Тема';
-   var tocTool3 = '';
+   var tocHead3 = 'Labels22';
+   var tocTool3 = 'Артем2';
    if (sortBy == "titleasc") { 
       tocTool1 += ' (descending)';
       tocTool2 += ' (newest first)';
