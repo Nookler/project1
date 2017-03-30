@@ -186,7 +186,7 @@ function displayToc(filter) {
    var tocTool1 = 'Сортировка по названию';
    var tocHead2 = 'Дата';
    var tocTool2 = 'Click to sort by date';
-   var tocHead3 = 'LABELS';
+   var tocHead3 = 'Темы';
    var tocTool3 = '';
    if (sortBy == "titleasc") { 
       tocTool1 += ' (descending)';
@@ -233,7 +233,7 @@ function displayToc(filter) {
    }
    tocTable += '</table>';
    if (numDisplayed == postTitle.length) {
-      var tocNote = '<span class="toc-note">Displaying all ' + postTitle.length + ' posts<br/></span>'; }
+      var tocNote = '<span class="toc-note">Показаны все ' + postTitle.length + ' поста<br/></span>'; }
    else {
       var tocNote = '<span class="toc-note">Displaying ' + numDisplayed + ' posts labeled \'';
       tocNote += postFilter + '\' of '+ postTitle.length + ' posts total<br/></span>';
