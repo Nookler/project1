@@ -181,7 +181,7 @@ function sortPosts(sortBy) {
 function displayToc(filter) {
 // this function creates a three-column table and adds it to the screen
    var numDisplayed = 0;
-   var tocTable = 'Артем';
+   var tocTable = 'Меню';
    var tocHead1 = 'Название';
    var tocTool1 = 'Click to sort by title';
    var tocHead2 = 'Дата';
